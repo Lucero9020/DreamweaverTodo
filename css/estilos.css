@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+img, img:hover{
+	transition: all 2s ease-in-out;
+}
+
+img.imagen01{
+	content: url(../img/imagen01.jpg);
+	max-height: 190px;
+	max-width: 190px;
+}
+
+img.imagen02{
+	content: url(../img/imagen02.jpg);
+	max-height: 190px;
+	max-width: 190px;
+}
+
+img.imagen03{
+	content: url(../img/imagen03.jpg);
+	max-height: 190px;
+	max-width: 190px;
+}
+
+img.imagen04{
+	content: url(../img/imagen04.jfif);
+	max-height: 190px;
+	max-width: 190px;
+}
+
+img.imagen01:hover{
+	filter: opacity(.5);
+	filter: grayscale() blur(10px);
+    backdrop-filter: grayscale() blur(10px); 
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+img.imagen02:hover{
+	filter: invert(100%) sepia(0.8) contrast(2);
+}
+
+img.imagen03:hover{
+	
+	box-shadow :5px 15px 40px #002;
+}
+
+img.imagen04:hover{
+	filter: saturate(150%) hue-rotate(45deg) blur(1px);
+}
+
+figure{
+	border: thin #c0c0c0 solid;
+	padding: 5px;
+	margin: auto;
+	max-width: 200px;
+}
+		
+figcaption{
+	background-color: #222;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+}

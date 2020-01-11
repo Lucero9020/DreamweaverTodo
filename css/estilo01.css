@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color:#0000FF;
+}
+
+footer{
+	background:silver;
+	float:left; 
+	width:100%;
+}
+
+marquee{
+	align:middle; 
+	scrollamount:2; 
+	scrolldelay:20; 
+	behavior:scroll;
+	width:75%; 
+	height:70%;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#0000FF; 
+	font-size:12;
+}
+
+aside {
+	background:#FF8A16; 
+	float:right; 
+	width:30%;
+}
+
+section {
+	background:#62EC9C; 
+	float:left; 
+	width:70%;
+}
+
+p{
+	background:skyblue; 
+	float:left; 
+	width:70%;
+}
+
+h2 {
+	align:center;
+}
+
+div{
+	background:#00BBBB; 
+	float:left; 
+	width:70%;
+}
